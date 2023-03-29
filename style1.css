@@ -1,0 +1,371 @@
+ /* universal body */
+ 
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ /* body */
+ 
+ body {
+     color: rgb(11, 2, 2);
+     background-image: linear-gradient(to left, rgb(219, 21, 21), rgb(20, 152, 228));
+ }
+ /* list */
+ 
+ li {
+     list-style: none;
+     font-weight: 500;
+     line-height: 30px;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: white;
+ }
+ /* list hover  */
+ 
+ li a:hover {
+     padding: 5px;
+     background-color: aliceblue;
+     color: rgb(69, 113, 244);
+     border-radius: 20px;
+ }
+ 
+ #li-Analysis a:hover {
+     color: rgb(243, 95, 95);
+ }
+ /* nav style */
+ 
+ nav {
+     background-color: black;
+     color: white;
+     margin-bottom: 0;
+     padding: 18px;
+ }
+ /* nav ul is here */
+ 
+ nav ul {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+ }
+ 
+ #li-Analysis a {
+     color: rgb(226, 242, 82);
+ }
+ /* header two style started from here */
+ 
+ .header2-div1 {
+     margin-top: 0;
+     background-color: rgb(167, 166, 166);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 226px;
+     padding: 20px;
+     margin-left: 90px;
+     margin-right: 90px;
+     border-bottom-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+ }
+ 
+ .header2-div1 li {
+     font-weight: 700;
+     line-height: 40px;
+     font-family: 'Poppins', sans-serif;
+ }
+ 
+ .header2-div1:hover {
+     background-color: antiquewhite;
+ }
+ 
+ .header2-div1 li:hover {
+     padding: 5px;
+     background-color: rgb(174, 210, 241);
+     color: black;
+     border-radius: 20px;
+ }
+ /* section style is here */
+ 
+ .static-hero {
+     /* background: #eae2e2;
+    height: 940px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     margin-top: 10%;
+     gap: 100px;
+ }
+ 
+ .static-hero-div1 {
+     margin-top: -5%;
+     margin-right: 50%;
+ }
+ 
+ h3 {
+     font-size: 50px;
+     font-weight: 700;
+ }
+ 
+ #span1 {
+     color: chartreuse;
+     font-weight: 700;
+ }
+ 
+ #span2 {
+     color: chartreuse;
+     font-size: 60px;
+     font-weight: 700;
+ }
+ 
+ #span3 {
+     color: chartreuse;
+     font-size: 60px;
+     font-weight: 700;
+ }
+ 
+ #para {
+     font-weight: 600;
+ }
+ 
+ #span-career {
+     font-weight: 600;
+ }
+ /* button style is here */
+ 
+ button {
+     margin-top: 10px;
+     margin-right: 20px;
+     padding: 8px 10px 10px 10px;
+     height: 40px;
+     width: 150px;
+ }
+ 
+ #btn1 {
+     background-color: rgb(25, 228, 25);
+     color: whitesmoke;
+     border: none;
+     border-radius: 5px;
+ }
+ 
+ #btn2 {
+     /* background-color: rgb(240, 240, 109); */
+     background-color: rgb(211, 226, 238);
+     color: rgb(16, 146, 20);
+     border: none;
+     border-radius: 5px;
+     font-weight: 600;
+ }
+ /* Icons style is here */
+ 
+ .section-creative {
+     display: flex;
+     gap: 20px;
+     margin-top: 20px;
+ }
+ 
+ .static-hero-right {
+     margin-left: 40%;
+     position: absolute;
+     top: -50%;
+     right: 150px;
+     z-index: 1;
+     /* transform: translateY(-50%); */
+ }
+ /* Individual images style is here */
+ 
+ img[alt="new profile"] {
+     border-radius: 50%;
+ }
+ 
+ img {
+     max-width: 100%;
+     vertical-align: middle;
+ }
+ 
+ img[alt="stock"] {
+     top: 105;
+     border-radius: 60px;
+     height: 100px;
+ }
+ /* // Icons 1 start is here // */
+ 
+ .static-hero-right .icon-1 {
+     position: absolute;
+     left: 0;
+     top: 20%;
+     width: 160px;
+     height: 60px;
+     padding: 4px;
+     background: #fff;
+     border-radius: 25px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 
+ .icon-1 h3 {
+     font-size: 15px;
+ }
+ 
+ .icon-1 p {
+     font-size: 15px;
+ }
+ 
+ #para-certified {
+     font-weight: 700;
+     font-size: 16px;
+     color: rgb(128, 251, 6);
+     font-family: 'Poppins', sans-serif;
+ }
+ /* // Icons 2 start from here// */
+ 
+ .static-hero-right .icon-2 {
+     left: auto;
+     right: 0;
+     position: absolute;
+     /* left: 0; */
+     top: 20%;
+     width: 140px;
+     height: 130px;
+     padding: 15px;
+     background: #fff;
+     border-radius: 20px;
+ }
+ 
+ .static-hero-right .icon-2 p {
+     text-align: center;
+ }
+ 
+ #para-join {
+     font-weight: 700;
+     font-size: 17px;
+     color: crimson;
+ }
+ /* // Icons 3 start from here// */
+ 
+ .static-hero-right .icon-3 {
+     left: 80%;
+     right: 10%;
+     top: 60%;
+     bottom: 0;
+     position: absolute;
+     /* left: 0; */
+     /* top: 20%; */
+     width: 160px;
+     height: 130px;
+     padding: 15px;
+     background: #fff;
+     border-radius: 35px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+ }
+ 
+ .icon-3 img {
+     border-radius: 20px;
+ }
+ 
+ #para-connection {
+     font-weight: 700;
+     font-size: 17px;
+     color: rgb(151, 153, 239);
+ }
+ /* // Project part style is here// */
+ 
+ .static-hero-right .project {
+     position: absolute;
+     left: 0;
+     bottom: 20%;
+     padding: 10px 20px;
+     background: #fff;
+     border-radius: 40px;
+     display: flex;
+     align-items: center;
+ }
+ 
+ img[alt="courses"] {
+     height: 50px;
+     width: 50px;
+     border-radius: 30px;
+ }
+ 
+ .static-hero-right .project .p-text p {
+     font-size: 15px;
+     margin-bottom: 0;
+     color: #585858;
+ }
+ 
+ .p-text h3 {
+     font-size: 20px;
+ }
+ 
+ p {
+     line-height: 1.8em;
+     margin-top: 0;
+ }
+ 
+ #courses {
+     color: lawngreen;
+ }
+ 
+ #span-courses {
+     color: rgb(68, 128, 237);
+ }
+ 
+ #para-multiple {
+     font-weight: 700;
+     color: #585858;
+ }
+ /* // Hover part is here // */
+ 
+ img[alt="courses"]:hover {
+     height: 100px;
+     width: 100px;
+ }
+ 
+ #para-connection:hover {
+     cursor: pointer;
+     color: black;
+ }
+ 
+ #para-join:hover {
+     cursor: pointer;
+     color: black;
+ }
+ 
+ #para-multiple:hover {
+     cursor: pointer;
+     color: rgb(84, 24, 225);
+ }
+ 
+ #para-certified:hover {
+     cursor: pointer;
+     color: black;
+ }
+ 
+ #CFA:hover {
+     color: rgb(73, 131, 239);
+ }
+ 
+ #btn1:hover {
+     color: black;
+     background-color: rgb(75, 161, 237);
+     font-weight: 800;
+     border: 2px solid black;
+ }
+ 
+ #btn2:hover {
+     color: rgb(19, 18, 20);
+     background-color: rgb(146, 237, 90);
+     font-weight: 700;
+     border: 2px solid black;
+ }
